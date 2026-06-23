@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Our First Bike RIde" },
+      { name: "description", content: "A romantic, one-page website celebrating a trip to Daman with interactive elements and a personalized message." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Our First Bike RIde" },
+      { property: "og:description", content: "A romantic, one-page website celebrating a trip to Daman with interactive elements and a personalized message." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Our First Bike RIde" },
+      { name: "twitter:description", content: "A romantic, one-page website celebrating a trip to Daman with interactive elements and a personalized message." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a8611a0c-cc67-4316-b9ff-e23d44b3e0c9/id-preview-ecc9d059--ec2d9fb9-736f-4b77-b4a2-9256a0bec757.lovable.app-1782227685707.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a8611a0c-cc67-4316-b9ff-e23d44b3e0c9/id-preview-ecc9d059--ec2d9fb9-736f-4b77-b4a2-9256a0bec757.lovable.app-1782227685707.png" },
     ],
     links: [
       {
